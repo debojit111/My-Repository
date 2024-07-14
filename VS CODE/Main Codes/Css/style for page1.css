@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+ ol.recipe {
+    padding-left: 100px;
+ }
+
+ .m{
+    padding-left: 10px;
+ }
+
+ .n{
+    padding-left: 20px;
+ }
+
+ /* follow the scroll as fixed position */
+ .page {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+
+/* Default styles for desktop */
+/* Add your existing CSS styles here */
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Example: Adjust font size for smaller screens */
+    }
+
+    /* Example: Adjust margins or paddings */
+    h1 {
+        margin: 10px;
+    }
+
+    /* Example: Make images responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Example: Stack footer links vertically */
+    footer a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Example: Adjust header styles */
+    .header {
+        font-size: 24px;
+    }
+}
+
+/* Media query for smartphones */
+@media (max-width: 480px) {
+    /* Example: Further adjustments for smaller screens */
+    body {
+        font-size: 12px; /* Example: Further reduce font size */
+    }
+
+    /* Example: Adjust header styles */
+    .header {
+        font-size: 20px;
+    }
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+ /* Adjust the height as needed */
+}
+
+
+.next{
+    font: bold;
+    font-size: 25px;
+}
+
+
