@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    float: left;
+}
+
+.body{
+    padding-left: 50px;
+}
+
+
+nav a:hover{
+    color: red;
+
+}
+nav a:visited{
+    color: rgb(255, 0, 0);
+}
+
+table,tr,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+th{
+    background-color: coral;
+}
+
+td{
+   background-color: floralwhite ;
+}
+
+.favourite{
+    color:red;
+    font-weight: bold;
+}
+
+ul#summer-drinks li{
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+}
+
+p#lorem{
+    color: red;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+body{
+    color: blue;
+}
+
+.Inherited a{
+    color: inherit;
+}
+
+.Initial a{
+    color:initial
+}
+
+.Unset a{
+    color: unset;
+}
+
+/* follow the scroll as fixed position */
+
+.page3 {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+
+.page1 {
+    position: fixed;
+    bottom: 63px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1000; /* Ensure it's above other content */
+}

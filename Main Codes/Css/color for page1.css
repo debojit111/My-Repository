@@ -1,0 +1,46 @@
+
+h1{
+    color: brown;
+}
+
+.header{
+    color: blue;
+    font-size:  30;
+    font-weight: bolder;
+}
+
+.list{
+    color: blue;
+}
+
+.recipe{
+    color: blue;
+}
+
+.scientific{
+    color: purple;
+}
+
+.link{
+    color: red;
+}
+
+.name.text{
+    color: rgb(0, 0, 0);
+    font: bolder;
+    font-weight: 500;
+}
+
+.flower.image.text{
+    color: violet;
+}
+
+.next
+{
+
+    color: rgb(0, 66, 33);
+}
+
+.Hello{
+    color: indianred;
+}
